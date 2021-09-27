@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: var(--primary-title-color);
 }
@@ -92,7 +92,6 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
- 
 }
 
 .header-navigation {
@@ -159,8 +158,6 @@ ul {
   display: flex;
   display: block;
 
-  
-
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -205,11 +202,9 @@ ul {
 .studio {
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 
 .studio-container {
- 
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -254,7 +249,6 @@ ul {
 }
 
 .work-container {
-  
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -306,7 +300,6 @@ ul {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  
 }
 
 .team-master {
@@ -353,7 +346,6 @@ ul {
 .footer-container {
   display: flex;
   flex-direction: column;
- 
 }
 
 .footer-logo {
@@ -405,8 +397,6 @@ ul {
 
 /* ---------- Hiro -------- */
 
-.gallery {
-}
 .navigator-button .current-btn {
   background-color: var(--accent-color);
   color: #f5f4fa;
@@ -438,7 +428,6 @@ ul {
 }
 
 .portfolio-container {
- 
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -456,7 +445,7 @@ ul {
 
 .btn {
   padding: 6px 22px;
- 
+
   border-radius: 4px;
 }
 
