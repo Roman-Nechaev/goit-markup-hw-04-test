@@ -236,36 +236,17 @@ ul {
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
-.studio-cart::before {
+.studio-cart {
   display: block;
   content: '';
   height: 120px;
   margin-bottom: 30px;
  
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #F5F4FA;;
 
 }
 
-.icon-antenna::before {
-background-image: url(../images/main/icons/antenna-1.svg);
 
-}
-
-.icon-clock::before {
-  background-image: url(../images/main/icons/clock-1.svg);
-
-}
-
-.icon-diagram::before { 
-  background-image: url(../images/main/icons/diagram-1.svg);
-
-}
-
-.icon-astronaut::before{
-  background-image: url(../images/main/icons/astronaut-1.svg);
-}
 
 .studio-text {
   display: flex;
@@ -273,6 +254,10 @@ background-image: url(../images/main/icons/antenna-1.svg);
   display: block;
   max-width: 270px;
   min-height: 75px;
+}
+
+.icon-antenna {
+  
 }
 
 .studio-text {
