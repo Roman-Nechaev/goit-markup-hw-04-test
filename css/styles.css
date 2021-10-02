@@ -110,10 +110,21 @@ ul {
 .header-contact-list {
   display: flex;
   margin-left: auto;
+ 
+ 
 }
 
 .header-mail-link {
+
   margin-right: 50px;
+  display: block;
+ 
+  
+}
+
+.header-tel-link {
+  display:flex;
+ 
 }
 
 .header-link {
@@ -122,7 +133,21 @@ ul {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
+
+ 
 }
+
+.header-icon-mail{
+  margin-right: 10px;
+  
+}
+
+.header-icon-tell{
+  margin-right: 10px;
+ 
+}
+
+
 
 .header-link:hover,
 .header-link:focus {
@@ -131,10 +156,12 @@ ul {
 .header-mail-link:hover,
 .header-mail-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .header-tel-link:hover,
 .header-tel-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .header-mail-link,
@@ -144,7 +171,13 @@ ul {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  fill: var(--primary-text-color);
+ 
 }
+
+
+
+
 
 /* ---------- Banner -------- */
 
