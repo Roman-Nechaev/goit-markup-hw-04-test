@@ -504,7 +504,20 @@ justify-content: center;
 }
 .footer-container {
   display: flex;
-  flex-direction: column;
+  
+  align-items: baseline;
+ 
+}
+
+
+.footer-logo-address{
+  
+  
+}
+
+.footer-text-icon{
+  margin-left: 70px;
+
 }
 
 .footer-text{
@@ -514,17 +527,25 @@ justify-content: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
-  display: flex;
-  justify-content: center;
-
+  
+  
   margin-bottom: 20px;
- 
+  
+
 }
+
+.footer-item-list{
+  display: flex;
+  
+    
+}
+
 
 .footer-list {
   display: flex;
-  justify-content: center;
   
+ 
+
   }
   
   .footer-item { 
@@ -559,7 +580,10 @@ justify-content: center;
     fill: #ffffff; 
   }
   
-  
+
+  .footer-full-logo {
+    margin-bottom: 20px;
+  }
   
 
   .footer-icon { 
@@ -577,6 +601,7 @@ justify-content: center;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
 }
 
 .footer-logo-second {
